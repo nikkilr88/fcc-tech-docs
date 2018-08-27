@@ -1,0 +1,17 @@
+{
+  "name": "fcc-docs",
+  "version": "1.0.0",
+  "description": "Technical Documentation project for Free Code Camp",
+  "main": "index.js",
+  "author": "Nicole Sattler",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "dev": " concurrently  \"live-server\" \"gulp watch-css\""
+  }
+}
