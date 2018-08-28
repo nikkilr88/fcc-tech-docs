@@ -41,12 +41,19 @@ nav {
   color: #fcfcfc;
   padding: 0 50px;
   font-weight: bold;
+  font-family: 'Quicksand';
+  font-size: 1.07em;
+}
+
+nav .logo {
+  font-weight: 700;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
   margin: 0 15px;
+  font-weight: 700;
 }
 
 .wrapper {
@@ -72,7 +79,6 @@ nav ul li {
 
 #sidebar li {
   padding: 15px 25px;
-  transition: all 0.2s;
   cursor: pointer;
 }
 
