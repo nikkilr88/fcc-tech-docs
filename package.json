@@ -9,9 +9,10 @@
     "concurrently": "^4.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-csso": "^3.0.1",
     "live-server": "^1.2.0"
   },
   "scripts": {
-    "dev": " concurrently  \"live-server\" \"gulp watch-css\""
+    "dev": " concurrently -n server,w:css \"live-server\" \"gulp watch-css\""
   }
 }
